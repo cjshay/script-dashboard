@@ -1,0 +1,32 @@
+html, body, div, span, form, p, img, ul, li, input,
+select, option, nav, section, main, i, section{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background: whitesmoke;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/*clearfix*/
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}

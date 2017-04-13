@@ -1,0 +1,7 @@
+ssh alpha@admin-portal.alphonso.tv
+
+a_setup_prodn
+
+cd /mnt/alpha/production/srcs/master-latest-git/dev/qa/scripts/
+
+node ./print-device-acr.js --device db7d60cb2a87fb4e730d57bba867b69a16baa9c2

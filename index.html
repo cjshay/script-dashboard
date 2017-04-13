@@ -4,15 +4,16 @@
     <meta charset="utf-8">
     <title>ACR Dashboard</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js" ></script>
+    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/application.css" />
   </head>
   <body ng-controller="ScriptController as scriptCtrl">
     <script type="text/javascript" src="app.js"></script>
-    <section>
-      <form ng-submit="scriptCtrl.script()">
-        <label for="">Device ID
-          <h3>{{scriptCtrl.deviceId}}</h3>
-          <input ng-model="scriptCtrl.deviceId" type="text" >
-        </label>
+    <section class="input-section">
+      <form id="device-id-form" ng-submit="scriptCtrl.script()">
+        <h3>{{scriptCtrl.deviceId}}</h3>
+        <div>Enter Device Id:</div>
+        <input ng-model="scriptCtrl.deviceId" type="text" >
         <input type="submit" value="Check Response Time">
       </form>
 
