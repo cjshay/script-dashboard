@@ -1,6 +1,7 @@
 {
   "name": "script-dashboard",
   "version": "1.0.0",
+  "github": "git@github.com:cjshay/script-dashboard.git",
   "description": "A basic dashboard to ping servers and check their speed activity",
   "main": "app.js",
   "scripts": {
