@@ -8,5 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "christopher@alphonso.tv",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
 }
